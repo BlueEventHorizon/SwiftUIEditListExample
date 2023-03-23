@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		76EE02AC29CBEB580043CCDA /* SwiftUIEditListExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE02AB29CBEB580043CCDA /* SwiftUIEditListExampleApp.swift */; };
-		76EE02AE29CBEB580043CCDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE02AD29CBEB580043CCDA /* ContentView.swift */; };
 		76EE02B029CBEB590043CCDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76EE02AF29CBEB590043CCDA /* Assets.xcassets */; };
 		76EE02B329CBEB590043CCDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76EE02B229CBEB590043CCDA /* Preview Assets.xcassets */; };
+		76EE02BC29CBEB840043CCDA /* EditGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE02B929CBEB830043CCDA /* EditGroupView.swift */; };
+		76EE02BD29CBEB840043CCDA /* TextFieldInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE02BA29CBEB830043CCDA /* TextFieldInfo.swift */; };
+		76EE02BE29CBEB840043CCDA /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE02BB29CBEB840043CCDA /* TextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		76EE02A829CBEB580043CCDA /* SwiftUIEditListExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIEditListExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76EE02AB29CBEB580043CCDA /* SwiftUIEditListExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIEditListExampleApp.swift; sourceTree = "<group>"; };
-		76EE02AD29CBEB580043CCDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76EE02AF29CBEB590043CCDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76EE02B229CBEB590043CCDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76EE02B929CBEB830043CCDA /* EditGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditGroupView.swift; sourceTree = "<group>"; };
+		76EE02BA29CBEB830043CCDA /* TextFieldInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldInfo.swift; sourceTree = "<group>"; };
+		76EE02BB29CBEB840043CCDA /* TextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		76EE02AA29CBEB580043CCDA /* SwiftUIEditListExample */ = {
 			isa = PBXGroup;
 			children = (
+				76EE02B929CBEB830043CCDA /* EditGroupView.swift */,
+				76EE02BA29CBEB830043CCDA /* TextFieldInfo.swift */,
+				76EE02BB29CBEB840043CCDA /* TextFieldView.swift */,
 				76EE02AB29CBEB580043CCDA /* SwiftUIEditListExampleApp.swift */,
-				76EE02AD29CBEB580043CCDA /* ContentView.swift */,
 				76EE02AF29CBEB590043CCDA /* Assets.xcassets */,
 				76EE02B129CBEB590043CCDA /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76EE02AE29CBEB580043CCDA /* ContentView.swift in Sources */,
+				76EE02BC29CBEB840043CCDA /* EditGroupView.swift in Sources */,
+				76EE02BE29CBEB840043CCDA /* TextFieldView.swift in Sources */,
 				76EE02AC29CBEB580043CCDA /* SwiftUIEditListExampleApp.swift in Sources */,
+				76EE02BD29CBEB840043CCDA /* TextFieldInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
